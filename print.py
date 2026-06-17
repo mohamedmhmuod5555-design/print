@@ -3,8 +3,7 @@ print("welcome to guess game")
 name =input("what is your name ")
 print("well "+ name +" guess number between 1 to 20")
 number = random.randint(1, 20)
-for guess_num in range(5):
-guess = int(input("\ntake a guess "))
+
 if guess < number:
 print("your guess is too low")
 elif guess > number:
